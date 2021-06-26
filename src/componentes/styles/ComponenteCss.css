@@ -1,0 +1,62 @@
+:root{
+    font-size: 18px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align:  center;
+    background: #4D5646;
+}
+
+section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.container{
+    width: 350px;
+    border-radius: 20px;
+    
+}
+.arriba{
+    background-size: cover;
+    height: 170px;
+    border-start-end-radius: 20px;  
+    border-top-left-radius: 20px; 
+}
+.imagenperfil{
+    width: 287px;
+    height: 287px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: -55px auto 20px auto;
+}
+.container{
+    padding: 0 0 25px;
+}
+
+.nombre {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+.trabajo {
+    color: hsl(229, 23%, 23%);
+    font-weight: 400;
+    opacity: 0.7;
+    font-size: .8rem;
+}
+.centro{
+    background-color: #FFFFFF;
+}
+.abajo{
+    display: flex;
+    height: 30px;
+}
+.abajo img{
+    width: 20px;
+    height: 20px;
+}
